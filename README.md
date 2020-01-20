@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+####特效目录
+```
+粒子特效   moment\src\views\specialEffects\particleEffects.vue
+```
