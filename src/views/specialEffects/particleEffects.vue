@@ -1,3 +1,4 @@
+<!--粒子特效-->
 <template>
     <div id="particle">
         <vue-particles
