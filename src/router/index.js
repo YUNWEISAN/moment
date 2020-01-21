@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import ParticleEffects from "../views/specialEffects/particleEffects.vue"
-
+import CodeRainEffects from "../views/specialEffects/codeRainEffects.vue"
 Vue.use(VueRouter);
 
 const routes = [
@@ -15,6 +15,11 @@ const routes = [
     path: "/particleEffects",
     name: "particleEffects",
     component: ParticleEffects
+  },
+  {
+    path: "/codeRainEffects",
+    name: "codeRainEffects",
+    component: CodeRainEffects
   },
   {
     path: "/about",
