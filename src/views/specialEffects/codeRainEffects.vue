@@ -1,3 +1,6 @@
+<!--代码雨特效-->
+<!--https://blog.csdn.net/weixin_33739523/article/details/87945797-->
+
 <template>
     <canvas id="vue-matrix-raindrop"></canvas>
 </template>
