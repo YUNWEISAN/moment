@@ -3,6 +3,15 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import ParticleEffects from "../views/specialEffects/particleEffects.vue"
 import CodeRainEffects from "../views/specialEffects/codeRainEffects.vue"
+import IntroductoryExample from "../views/echarts/introductoryExample.vue"
+import TrafficStatistics from "../views/echarts/trafficStatistics.vue"
+import BrokenLineDiagram from "../views/echarts/brokenLineDiagram.vue"
+import Dashboard from "../views/echarts/dashboard.vue"
+import TopologicalGraph from "../views/echarts/topologicalGraph.vue"
+import OrgChartOne from "../views/orgChart/orgChartOne.vue"
+
+
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -21,6 +30,38 @@ const routes = [
     name: "codeRainEffects",
     component: CodeRainEffects
   },
+    {
+        path: "/introductoryExample",
+        name: "introductoryExample",
+        component: IntroductoryExample
+    },
+    {
+        path: "/trafficStatistics",
+        name: "trafficStatistics",
+        component: TrafficStatistics
+    },
+
+    {
+        path: "/brokenLineDiagram",
+        name: "brokenLineDiagram",
+        component: BrokenLineDiagram
+    },
+    {
+        path: "/dashboard",
+        name: "dashboard",
+        component: Dashboard
+    },
+    {
+        path: "/topologicalGraph",
+        name: "topologicalGraph",
+        component: TopologicalGraph
+    },
+    {
+        path: "/orgChartOne",
+        name: "orgChartOne",
+        component: OrgChartOne
+    },
+
   {
     path: "/about",
     name: "about",
